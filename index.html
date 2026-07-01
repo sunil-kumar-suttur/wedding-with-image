@@ -614,7 +614,7 @@
       <h2 class="heading">The couple</h2>
 
       <!-- Full-width couple photo, shown as a CSS background-image (see .couple-photo in the CSS
-       to adjust --photo-position). Drop your image at images/couple-full.jpg and it appears
+       to adjust --photo-position). Drop your image at couple-full.jpg and it appears
        here automatically. -->
       <div class="couple-photo" id="couplePhoto"></div>
 
@@ -792,7 +792,7 @@
       // Load the couple photo as a background-image (so it can be repositioned via
       // the --photo-position CSS variable) and only show it once it actually exists.
       (function () {
-        var photoUrl = "images/couple-full.png";
+        var photoUrl = "couple-full.png";
         var preload = new Image();
         preload.onload = function () {
           var el = document.getElementById("couplePhoto");
